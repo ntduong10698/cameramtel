@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --text-size: 13px;
+    --main1-color: #ce2a37;
+    --main2-color: #ebebeb;
+    --text-font: Arial, Helvetica, sans-serif;
+    --border-main: solid 1px #ddd;
+}
+
+body {
+    font-family: var(--text-font);
+    font-size: var(--text-size);
+}
+
+/* HEADER */
+.header {
+    border-bottom: var(--border-main);
+}
+
+.header a {
+    color: var(--text-color);
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.header .navbar-left {}
+
+.header .navbar-right {}
+
+.header .navbar-left li.support-header {}
+
+.header .navbar-right li.support-header {
+    position: relative;
+}
+
+.header li.support-header .support-content {
+    position: absolute;
+    left: 0px;
+    padding: 10px 50px 10px 10px;
+    border: solid 1px #ddd;
+    line-height: 1.5;
+    display: none;
+    width: 320px;
+    z-index: 3;
+    background: white;
+}
+
+.header li.support-header:hover .support-content {
+    display: inline;
+}
+
+.header .support-content .content-title {
+    font-weight: bold;
+    color: red;
+    padding: 5px 0px;
+}
+
+.header .support-content .box-support {}
+
+.header .box-support .right {}
+
+.header .box-support .right i {}
+
+.header .box-support .left {}
+
+.header .box-support .left i {
+    color: #3371be;
+}
+
+/* END-HEADER */
+
+
+/* BANNER-HEADER */
+.banner-header {
+    margin: 10px 0px;
+}
+
+.banner-header a.card-header {
+    color: black;
+    text-decoration: none;
+    padding-top: 20px;
+}
+.banner-header a.card-header i{}
+.banner-header a.card-header .hidden-xs{
+    margin-left: 10px;
+    font-size: 14px;
+}
+.banner-header a.card-header .hidden-xs b{
+    display: block;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.banner-header a.card-header .hidden-xs span{
+    font-weight: bold;
+}
+
+.banner-header img.logo {}
+
+.banner-header img.banner {
+    height: 80px;
+}
+
+/* END-BANNER-HEADER */
+
+/* NAV-SEARCH */
+.nav-search {}
+
+.nav-search .package {
+    background: var(--main2-color);
+}
+
+.nav-search .search-right {
+    padding: 4px 10px;
+    margin: 5px 5px 0px 0px;
+    border: var(--border-main);
+    box-sizing: border-box;
+    border-radius: 25px;
+    background: white;
+}
+
+.nav-search .search-right .search-select {
+    border: none;
+}
+
+.nav-search .search-right .search-text {
+    border: none;
+}
+
+.nav-search .search-right .search-submit {
+    background: url('https://mtel.vn/template/default/images/icon_search.png') center left no-repeat ;
+    border: none;
+    float: right;
+}
+
+.nav-search .title-left {
+    line-height: 40px;
+    padding: 0px 10px;
+    background: #ce2a37;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.nav-search .title-left span {
+    padding-right: 8px;
+}
+
+.nav-search .title-left i {}
+
+.nav-search .info-hotline {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-search .info-hotline .hotline {
+    padding: 0px 10px;
+    text-transform: uppercase;
+    color: #f20909;
+}
+
+.nav-search .info-hotline b {
+    display: block;
+}
+
+.nav-search .info-hotline span {
+    font-weight: bold;
+}
+
+.nav-search .info-hotline a {
+    padding: 0px 10px;
+    line-height: 40px;
+    color: #f20909;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* END-NAV-SEARCH */
