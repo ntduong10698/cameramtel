@@ -176,6 +176,26 @@ body {
     color: #f20909;
     text-decoration: none;
     font-weight: bold;
+    font-size: 16px;
 }
 
 /* END-NAV-SEARCH */
+
+/* responsive */
+
+@media(max-width: 768px) {
+    /* NAV-SEARCH */
+    .nav-search .package {
+        height: 40px;
+    }
+    .nav-search .title-left{
+        width: 30%;
+    }
+    .nav-search .search-right{
+        width: 65%
+    }
+    .nav-search .search-right .search-text {
+        width: 60%;
+    }
+    /* END-NAV-SEARCH */
+}
